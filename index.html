@@ -109,13 +109,9 @@
     </section>
 
         <!-- portfolio Section -->
-    <section id="resume" class="container content-section text-center">
-        <div class="row">
-            <div class="container">
-                Java Jboss JSF Primefaces MySql Salesforce SOQL Apex SVN GIT ANT Maven Bash Batch Sql Server Eclipse Sublime Text Vanilla Javascript jQuery Angular.js Node.js Linux SysAdmin
-            </div>
-        </div>
-    </section>
+    <div id="demo">
+        
+    </div>
  
     <!-- Contact Section -->
     <section id="contact" class="container content-section text-center">
@@ -149,6 +145,7 @@
         </div>
     </footer>
 
+    <script src="js/jqcloud.js"></script>
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
@@ -163,6 +160,36 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/grayscale.js"></script>
+
+    <script>
+  		var words = [ 
+  			{text: "Java", weight: 20 },
+			{text: "Jboss", weight: 18 },
+			{text: "JSF", weight: 17 },
+			{text: "Primefaces", weight: 15 },
+			{text: "MySql", weight: 14 },
+			{text: "Salesforce", weight: 13 },
+			{text: "SOQL", weight: 12 },
+			{text: "Apex", weight: 11 },
+			{text: "SVN", weight: 11 },
+			{text: "GIT", weight: 11 },
+			{text: "ANT", weight: 11 },
+			{text: "Maven", weight: 11 },
+			{text: "Bash", weight: 11 },
+			{text: "Batch", weight: 11 },
+			{text: "Sql Server", weight: 11 },
+			{text: "Eclipse", weight: 11 },
+			{text: "Sublime Text", weight: 11 },
+			{text: "Vanilla Javascript", weight: 11 },
+			{text: "jQuery", weight: 11 },
+			{text: "Angular.js", weight: 11 },
+			{text: "Node.js", weight: 11 },
+			{text: "Linux", weight: 11 },
+			{text: "SysAdmi", weight: 11 } 
+		];
+	
+	$('#demo').jQCloud(words);
+    </script>
 
 </body>
 
