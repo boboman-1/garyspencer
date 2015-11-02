@@ -121,10 +121,13 @@
     <div id="resume" class=" content-section text-center">
         <div class="col-lg-8 col-lg-offset-2">
             <h1>Resume</h2>
-            <h2>Technologies</h2>
+            
+            <div id="technologiesSection"> 
+                <h2>Technologies</h2>
                 <div id="technologies" class="myContainer">
-        
                 </div>
+            </div>
+
             <h2>Education</h12>
         </div>
     </div>
@@ -179,29 +182,34 @@
     <script type="text/javascript" src="js/jqcloud.js"></script>
     <script type="text/javascript">
   		var words = [ 
-            {text: "Java", weight: 100.0},
-            {text: "Jboss", weight 90.0},
-            {text: "JSF", weight 90.0},
-            {text: "Primefaces", weight 90.0},
-            {text: "MySql", weight 90.0},
-            {text: "Salesforce", weight 90.0},
-            {text: "SOQL", weight 90.0},
-            {text: "Apex", weight 90.0},
-            {text: "SVN", weight 90.0},
-            {text: "GIT", weight 90.0},
-            {text: "ANT", weight 90.0},
-            {text: "Maven", weight 90.0},
-            {text: "Bash", weight 90.0},
-            {text: "Batch", weight 90.0},
-            {text: "Sql Server", weight 90.0},
-            {text: "Eclipse", weight 90.0},
-            {text: "Sublime Text", weight 90.0},
-            {text: "Vanilla Javascript", weight 90.0},
-            {text: "jQuery", weight 90.0},
-            {text: "Angular.js", weight 90.0},
-            {text: "Node.js", weight 90.0},
-            {text: "Linux", weight 90.0}
+            {text: "Java", weight: 100},
+            {text: "C#", weight: 100},
+            {text: "Python", weight: 100}
+            {text: "Salesforce", weight: 100},
+            {text: "Apex", weight: 100},
+            {text: "Vanilla Javascript", weight: 100},
+            {text: "Jboss", weight: 90},
+            {text: "Linux", weight: 100},
+            {text: "Windows", weight: 90}
+            {text: "Node.js", weight: 60},
+            {text: "jQuery", weight: 40},
+            {text: "Angular.js", weight: 40},
+            {text: "JSF", weight: 100},
+            {text: "Primefaces", weight: 40},
+            {text: "MySql", weight: 69},
+            {text: "SOQL", weight: 40},
+            {text: "SVN", weight: 25},
+            {text: "GIT", weight: 40},
+            {text: "ANT", weight: 20},
+            {text: "Maven", weight: 20},
+            {text: "Bash", weight: 20},
+            {text: "Batch", weight: 20},
+            {text: "Sql Server", weight: 100},
+            {text: "Eclipse", weight: 40},
+            {text: "Sublime Text", weight: 40},
+            {text: "VisualStudio", weight: 40}
         ];
+            
         $(document).ready(function(){
             $("#technologies").jQCloud(words);
         });
