@@ -176,7 +176,7 @@ a:focus {
     }
 
     .intro .intro-body .brand-heading {
-        font-size: 65px;
+        font-size: 60px;
 
     }
 
@@ -373,3 +373,5 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
+.green-text { color:#42dca3; }
+li { text-align:left;}

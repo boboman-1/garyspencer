@@ -20,10 +20,8 @@
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqcloud/1.0.4/jqcloud.css">
+    <link href="http://fonts.googleapis.com/css?family=Lora:20,700,20italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:20,700" rel="stylesheet" type="text/css">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -42,7 +40,7 @@
                     <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">
-                    <i class="fa fa-play-circle"></i>  <span class="light">Back to top</span>
+                    <i class="fa fa-play-circle"></i>  <span class="light">GarySpencer.com</span>
                 </a>
             </div>
 
@@ -55,9 +53,6 @@
                     </li>
                     <li>
                         <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
@@ -75,8 +70,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading">cd /home/garyspencer</h1>
-                        <p class="intro-text">Software Developer based out of Colorado USA<br></p>
+                        <h1 class="brand-heading">$ cd /home/<span class="green-text">garyspencer</span></h1>
+                        <p class="intro-text">Software Developer based out of Colorado, USA<br></p>
                         <a href="#about" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
                         </a>
@@ -89,44 +84,42 @@
     <!-- About Section -->
     <section id="about" class="container content-section text-center">
         <div class="row">
+            <h1>$ whoami</h1>
             <div class="col-lg-8 col-lg-offset-2">
-                <div class="media" style="text-align: left;">
-                    <div class="media-left media-top">
-                        <div class="media-object">
-                            <img src="img/Headshot.jpg" alt="me" width="100" height="100">
-                        </div>
-                    </div>
-                    <div class="media-body">
-                        <h4 class="media-heading media-left">About Me</h4>
-                        <span style="text-align:left;">
-                            I am a technology enthusiast and I enjoy solving problems.  I have been coding since I was 10 and expect to continue to learn for many more years.
-                        </span>
-                    </div>
-                </div>
+                
+                <img src="img/Headshot.jpg" alt="me" width="135" height="135">
+                <br/><br/>
+                <h3>
+                    <span class="green-text">#</span>Hello, World!
+                </h3>
+                <h6>
+                    I am a technology enthusiast and I enjoy solving problems.  I have been coding since I was 10 years old and I can only hope to keep learning for the rest of my life.  I do like getting out and away from the screens to enjoy all aspects of life.  Outside of computer nerd stuff I like to snowboard, hike, bike, sail, and throw money at my car so it can go faster around the corners.
+                </h6>
+
+                <br/>
+                <h3><span class="green-text">#</span>Industry Experience</h3>
+                <h6>Telecommunications, Healthcare, Entertainment</h6>
+
+                <br/>
+                
+                
+                <h2>
+                    <span class="green-text">#</span>Tech
+                </h2>
+                <h6 style="width:250px; margin:auto">
+                    Java, C#, Python, Javascript, jQuery, Angular.js, Node.js, Knockout.js, JBoss, IIS, Git, SVN, MySql, SQLServer, PostgreSql..
+                    <br/>
+                    <span class="green-text">
+                    ET AL...
+                    </span>
+                <h6>
+
+                <br/>
+                <h2><span class="green-text">#</span>Education</h2>
+                <h6>B.S. from <a href="http://wcupa.edu">West Chester University of Pennsylvania</a></h6>
+                
+                <br/>
             <p></p>
-        </div>
-    </section>
-
-    <!-- portfolio Section -->
-    <section id="portfolio" class="content-section text-center">
-        <div>
-            <div class="container">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <div>
-                        <span class="glyphicon glyphicon-list-alt"></span>
-                        <h2>Portfolio</h2>
-                    </div>
-                    <div id="technologiesSection"> 
-                        <h2>Technologies</h2>
-                        <div id="technologies" style="height:125px; width:300px; margin:auto;">
-                        </div>
-                    </div>
-
-                    <h2>Education</h2>
-
-
-                </div>
-            </div>
         </div>
     </section>
 
@@ -158,67 +151,18 @@
     <!-- Plugin JavaScript -->
     <script type="text/javascript"  src="js/jquery.easing.min.js"></script>
 
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAx-izfejYyEAGsaaNGAOF5TBoIK1bScJY&callback=initMap"
-        async defer></script>
-
     <!-- Custom Theme JavaScript -->
     <script type="text/javascript" src="js/grayscale.js"></script>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqcloud/1.0.4/jqcloud-1.0.4.js"></script>
+    
     <script type="text/javascript">
-        var map;
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-        function initMap() {
-          map = new google.maps.Map(document.getElementById('map'), {
-            center: {lat: 39.739120, lng: -104.990281},
-            zoom: 8,
-            mapTypeControl: false,
-            mapTypeId: google.maps.MapTypeId.TERRAIN
-          });
-        }
-
-  		var words = [ 
-            {text: "Java", weight: 100},
-            {text: "C#", weight: 100},
-            {text: "Python", weight: 100},
-            {text: "Salesforce", weight: 100},
-            {text: "Apex", weight: 100},
-            {text: "Vanilla Javascript", weight: 100},
-            {text: "Jboss", weight: 90},
-            {text: "Linux", weight: 100},
-            {text: "Windows", weight: 90},
-            {text: "Node.js", weight: 60},
-            {text: "jQuery", weight: 40},
-            {text: "Angular.js", weight: 40},
-            {text: "JSF", weight: 100},
-            {text: "Primefaces", weight: 40},
-            {text: "MySql", weight: 69},
-            {text: "SOQL", weight: 40},
-            {text: "SVN", weight: 25},
-            {text: "GIT", weight: 40},
-            {text: "ANT", weight: 20},
-            {text: "Maven", weight: 20},
-            {text: "Bash", weight: 20},
-            {text: "Batch", weight: 20},
-            {text: "Sql Server", weight: 100},
-            {text: "Eclipse", weight: 40},
-            {text: "Sublime Text", weight: 40},
-            {text: "VisualStudio", weight: 40}
-        ];
-            
-        $(document).ready(function(){
-            $("#technologies").jQCloud(words);
-        });
+      ga('create', 'UA-69393135-1', 'auto');
+      ga('send', 'pageview');
     </script>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-69393135-1', 'auto');
-  ga('send', 'pageview');
-</script>
 </body>
 
 </html>
