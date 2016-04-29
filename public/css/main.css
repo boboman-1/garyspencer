@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+}
+html, body {
+    height: 100%;
+}
+#wrapper { 
+	min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -30px;
+}
+#footer { 
+	background-color:black; width:100%; height:30px; 
+}
+
+
+
+
+
+
+
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+body { 
+	background-image: url('../images/milkyway.jpg'); 
+	font-family: Verdana;
+	text-shadow: 0px 0px 3px #000, -1px -1px #000, 1px 1px #000;
+
+}
+.h1 {
+	text-shadow: 0px 0px 3px #000, -1px -1px #000, 1px 1px #000;
+	font-weight: bold;
+}
+#wrapper {
+   min-height:100%;
+   position:relative;
+   background-image:;
+}
+#header {
+   background:#ff0;
+   padding:10px;
+}
+#body {
+   padding:10px;
+   padding-bottom:30px;   /* Height of the footer */
+   color: white;
+}
+#footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:30px;   /* Height of the footer */
+   background:black;
+   color:#757570;
+}
+
+.blackBack {
+	 margin-top: -60x;
+	 margin-left: -140px;
+	 width:280px;
+	 height:120px;
+	 background-color:black;
+	 z-index:0;
+	 opacity:0.5;
+}
